@@ -11,14 +11,20 @@ export default {
     },
     extend: {
       spacing: {
-        37.5: "600px",
-        "19,375": "310px",
+        "37.5": "600px",
+        "19.375": "310px",
       },
       bgColor: {
         bggreen: "bg-green",
         bgdarkGrey: "bg-grey",
         bgwhite: "bg-white",
       },
+      dropShadow: {
+        "cardShadow": "0 5px 0 rgba(25, 26, 35, 1)"
+      },
+      borderRadius:{
+        "cardRadius": "45px"
+      }
     },
   },
   plugins: [],
