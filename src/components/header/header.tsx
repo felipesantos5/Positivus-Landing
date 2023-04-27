@@ -5,10 +5,10 @@ import { Anchor } from "./anchor";
 
 function Header() {
   return (
-    <div className="flex justify-around">
+    <div className="flex justify-around mt-10 mb-16">
       <img src={logo} alt="logo Positivus" />
       <div className="flex items-center">
-        <nav className="flex gap-10">
+        <nav className="flex gap-10 mr-10">
           <Anchor>About us</Anchor>
           <Anchor>Services</Anchor>
           <Anchor>Use Cases</Anchor>
