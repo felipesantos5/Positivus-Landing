@@ -5,10 +5,10 @@ interface ButtonProps {
   bgColor: string;
 }
 
-const Button = ({ children, bgColor }: ButtonProps) => {
-  const btnClassName = `rounded-2xl border-2 border-black py-5 px-9 h-16 font-primary text-center ${bgColor}`;
+const Button = (props: ButtonProps) => {
+  const btnClassName = `rounded-2xl border-2 border-black py-5 px-9 h-16 font-primary text-center ${props.bgColor}`;
 
-  return <button className={btnClassName}>{children}</button>;
+  return <button className={btnClassName}>{props.children}</button>;
 };
 
 export default Button;
