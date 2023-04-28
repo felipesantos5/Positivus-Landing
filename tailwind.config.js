@@ -19,6 +19,9 @@ export default {
         bgdarkGrey: "bg-grey",
         bgwhite: "bg-white",
       },
+      width: {
+        264: "264px",
+      },
     },
   },
   plugins: [],
