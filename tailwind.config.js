@@ -21,7 +21,9 @@ export default {
       },
       width: {
         264: "264px",
+        531: "531px",
       },
+      text: {},
     },
   },
   plugins: [],
