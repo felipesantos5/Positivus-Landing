@@ -24,7 +24,10 @@ export default {
       },
       borderRadius:{
         "cardRadius": "45px"
-      }
+      },
+      width: {
+        264: "264px",
+      },
     },
   },
   plugins: [],
