@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../button/button";
 import ilustration from "../../public/img/firstPage/Illustration.png";
-import Marks from "../marks/matks";
+import Marks from "../marks/brands";
 
 const firstPage = () => {
   return (
