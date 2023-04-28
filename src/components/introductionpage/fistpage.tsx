@@ -8,7 +8,7 @@ const firstPage = () => {
     <div className="mx-24">
       <div className="flex gap-24">
         <div className="flex flex-col gap-8">
-          <h1 className="text-6xl">Navigating the digital landscape for success</h1>
+          <h1 className="text-6xl w-531">Navigating the digital landscape for success</h1>
           <p className="w-96">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
           <Button bgColor={"bg-darkGrey"} width="264">
             Book a consultation
