@@ -33,7 +33,9 @@ export default {
       width: {
         264: "264px",
         580: "580px",
+        531: "531px",
       },
+      text: {},
     },
   },
   plugins: [],
