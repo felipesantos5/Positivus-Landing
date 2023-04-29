@@ -9,10 +9,15 @@ export default {
       grey: "#F3F3F3",
       darkGrey: "#191A23",
     },
+    fontSize: {
+      "40": "40px",
+      "30": ["30px", "36px"],
+    },
     extend: {
       spacing: {
-        "37.5": "600px",
-        "19.375": "310px",
+        "600": "600px",
+        "310": "310px",
+        "72px": "72px"
       },
       bgColor: {
         bggreen: "bg-green",
@@ -27,6 +32,7 @@ export default {
       },
       width: {
         264: "264px",
+        580: "580px",
       },
     },
   },
