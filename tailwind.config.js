@@ -11,8 +11,8 @@ export default {
     },
     extend: {
       spacing: {
-        "37.5": "600px",
-        "19.375": "310px",
+        37.5: "600px",
+        19.375: "310px",
       },
       bgColor: {
         bggreen: "bg-green",
@@ -20,14 +20,15 @@ export default {
         bgwhite: "bg-white",
       },
       dropShadow: {
-        "cardShadow": "0 5px 0 rgba(25, 26, 35, 1)"
+        cardShadow: "0 5px 0 rgba(25, 26, 35, 1)",
       },
-      borderRadius:{
-        "cardRadius": "45px"
+      borderRadius: {
+        cardRadius: "45px",
       },
       width: {
         264: "264px",
         531: "531px",
+        498: "498px",
       },
       text: {},
     },
