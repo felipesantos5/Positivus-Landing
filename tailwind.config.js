@@ -19,7 +19,7 @@ export default {
         19.375: "310px",
         600: "600px",
         310: "310px",
-        72: "72px",
+        4.5: "72px",
       },
       bgColor: {
         bggreen: "bg-green",
