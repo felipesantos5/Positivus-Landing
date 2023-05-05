@@ -3,6 +3,7 @@ import React from "react";
 import FirstPage from "./components/introductionpage/fistpage";
 import Header from "./components/header/header";
 import CardPage from "./components/cardPage/cardPage";
+import FirstCta from "./components/firstcta/firstCta";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header></Header>
       <FirstPage></FirstPage>
       <CardPage></CardPage>
+      <FirstCta></FirstCta>
     </div>
   );
 }
