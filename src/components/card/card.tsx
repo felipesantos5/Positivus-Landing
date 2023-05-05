@@ -14,12 +14,12 @@ interface ServiceCardProps {
 
 export const ServiceCard = (props: ServiceCardProps) => {
    return (
-      <div className={`w-600 h-310 border border-darkGrey drop-shadow-cardShadow rounded-cardRadius ${props.bgColor}`}>
-         <div className="flex flex-row grid-cols-2">
-            <div className="mt-12 ml-12 flex flex-col gap-24">
+      <div className={`border border-darkGrey drop-shadow-cardShadow rounded-cardRadius ${props.bgColor}`}>
+         <div className="flex grid-cols-2">
+            <div className="mt-12 ml-12 mb-12 flex flex-col gap-20">
                <div className="">
-                  <h1 className={` text-30 inline-block p-1 rounded-lg ${props.titleBg}`}>{props.title1}</h1>
-                  <h1 className={` text-30 inline-block p-1 rounded-lg ${props.titleBg}`}>{props.title2}</h1>
+                  <h1 className={`font-medium text-30 inline-block p-1 rounded-lg ${props.titleBg}`}>{props.title1}</h1>
+                  <h1 className={`font-medium text-30 inline-block p-1 rounded-lg ${props.titleBg}`}>{props.title2}</h1>
                </div>
                <div className="flex flex-row items-center gap-3.5">
                   <img src={props.icon} alt="Service card icon"/>
