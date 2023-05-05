@@ -14,13 +14,6 @@ export default {
       30: ["30px", "36px"],
     },
     extend: {
-      spacing: {
-        37.5: "600px",
-        19.375: "310px",
-        600: "600px",
-        310: "310px",
-        4.5: "72px",
-      },
       bgColor: {
         bggreen: "bg-green",
         bgdarkGrey: "bg-grey",
@@ -37,6 +30,7 @@ export default {
         580: "580px",
         531: "531px",
         498: "498px",
+        288: "288"
       },
       text: {},
     },
