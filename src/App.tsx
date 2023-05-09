@@ -7,7 +7,7 @@ import FirstCta from "./components/firstcta/firstCta";
 
 function App() {
   return (
-    <div>
+    <div className="mx-28">
       <Header></Header>
       <FirstPage></FirstPage>
       <CardPage></CardPage>
