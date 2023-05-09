@@ -5,7 +5,7 @@ import { Anchor } from "./anchor";
 
 function Header() {
   return (
-    <div className="flex justify-around mt-10 mb-16">
+    <div className="flex justify-between mt-10 mb-16">
       <img src={logo} alt="logo Positivus" />
       <div className="flex items-center">
         <nav className="flex gap-10 mr-10">
@@ -15,7 +15,9 @@ function Header() {
           <Anchor>Pricing</Anchor>
           <Anchor>Blog</Anchor>
         </nav>
-        <Button bgColor={"bg-white"}>Request a quote</Button>
+        <Button bgColor={"bg-white"} textColor="black" width="231">
+          Request a quote
+        </Button>
       </div>
     </div>
   );

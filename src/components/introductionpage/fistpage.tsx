@@ -6,14 +6,14 @@ import Paragraph from "../paragraph/paragraph";
 
 const firstPage = () => {
   return (
-    <div className="mx-24">
+    <div className="">
       <div className="flex gap-24">
         <div className="flex flex-col gap-8">
-          <h1 className="text-6xl w-531">Navigating the digital landscape for success</h1>
-          <Paragraph width={498}>
+          <h1 className="text-40 w-531">Navigating the digital landscape for success</h1>
+          <Paragraph width="580">
             Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
           </Paragraph>
-          <Button bgColor={"bg-darkGrey"} width="264">
+          <Button bgColor={"bg-darkGrey"} width="w-264" textColor="text-white">
             Book a consultation
           </Button>
         </div>

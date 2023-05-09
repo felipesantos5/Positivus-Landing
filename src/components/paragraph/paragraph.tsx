@@ -6,7 +6,7 @@ interface Marks {
 }
 
 const Paragraph = (props: Marks) => {
-  const pClassName = `text-black w-${props.width}`;
+  const pClassName = `text-black ${props.width && `w-${props.width}`}`;
 
   return <p className={pClassName}>{props.children}</p>;
 };
