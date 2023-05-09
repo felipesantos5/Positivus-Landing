@@ -6,7 +6,7 @@ import netflix from "../../public/img/firstPage/marks/netflix.svg";
 import notion from "../../public/img/firstPage/marks/notion.svg";
 import zoom from "../../public/img/firstPage/marks/zoom.svg";
 
-import Mark from "../introductionpage/brand";
+import Mark from "./brand";
 
 const Marks = () => {
   return (
