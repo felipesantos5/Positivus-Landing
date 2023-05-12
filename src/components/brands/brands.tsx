@@ -10,7 +10,7 @@ import Brand from "./brand";
 
 const Brands = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between mt-16">
       <Brand photo={amazon}></Brand>
       <Brand photo={dribble}></Brand>
       <Brand photo={hubspot}></Brand>

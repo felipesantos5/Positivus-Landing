@@ -6,7 +6,7 @@ interface anchorProps {
 
 export const Anchor = (props: anchorProps) => {
   return (
-    <a href="#" className="text-xl">
+    <a href="#" className="font-normal leading-7 text-20">
       {props.children}
     </a>
   );

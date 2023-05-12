@@ -8,7 +8,7 @@ interface ButtonProps {
 }
 
 const Button = (props: ButtonProps) => {
-  const btnClassName = `block rounded-2xl border-2 border-black py-5 px-9 h-16 font-primary text-center ${props.bgColor} ${props.textColor} ${props.width}`;
+  const btnClassName = `block rounded-2xl border-2 border-black py-5 h-68 font-normal leading-7 text-20 text-center ${props.bgColor} ${props.textColor} ${props.width}`;
 
   return <button className={btnClassName}>{props.children}</button>;
 };
