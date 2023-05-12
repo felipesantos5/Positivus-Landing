@@ -7,11 +7,13 @@ import FirstCta from "./components/firstcta/firstCta";
 
 function App() {
   return (
-    <div className="mx-28">
-      <Header></Header>
-      <FirstPage></FirstPage>
-      <CardPage></CardPage>
-      <FirstCta></FirstCta>
+    <div className="mx-auto max-w-screen-2xl">
+      <div className="mx-24">
+        <Header></Header>
+        <FirstPage></FirstPage>
+        <CardPage></CardPage>
+        <FirstCta></FirstCta>
+      </div>
     </div>
   );
 }
