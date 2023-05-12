@@ -2,7 +2,7 @@ import React from "react";
 // import { useState } from "react";
 import FirstPage from "./components/introductionpage/fistpage";
 import Header from "./components/header/header";
-import CardPage from "./components/cardPage/cardPage";
+import CardPage from "./components/card/cardPage";
 import FirstCta from "./components/firstcta/firstCta";
 
 function App() {
