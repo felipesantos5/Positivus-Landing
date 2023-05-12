@@ -10,8 +10,10 @@ export default {
       darkGrey: "#191A23",
     },
     fontSize: {
+      20: ["20px", "28px"],
       40: "40px",
       30: ["30px", "36px"],
+      60: ["60px", "76px"],
     },
     extend: {
       bgColor: {
@@ -25,12 +27,20 @@ export default {
       borderRadius: {
         cardRadius: "45px",
       },
+      height: {
+        68: "68",
+      },
       width: {
+        77: "77px",
         264: "264px",
         580: "580px",
         531: "531px",
         498: "498px",
-        288: "288"
+        288: "288px",
+        1440: "1440px",
+      },
+      maxWidt: {
+        1440: "1440px",
       },
       text: {},
     },
