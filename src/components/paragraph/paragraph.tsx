@@ -1,12 +1,12 @@
 import React from "react";
 
-interface Marks {
-  width: string | number;
+interface Paragraph {
+  width: string;
   children: string;
 }
 
-const Paragraph = (props: Marks) => {
-  const pClassName = `text-black ${props.width} font-normal leading-7 text-20`;
+const Paragraph = (props: Paragraph) => {
+  const pClassName = `text-black ${props.width} font-normal text-18`;
 
   return <p className={pClassName}>{props.children}</p>;
 };
