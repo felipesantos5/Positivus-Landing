@@ -42,6 +42,11 @@ export default {
       maxWidt: {
         1440: "1440px",
       },
+
+      spacing: {
+        23: "-23.5px",
+        347: "347px"
+      },
       text: {},
     },
   },
