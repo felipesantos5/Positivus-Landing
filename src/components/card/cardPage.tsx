@@ -13,8 +13,7 @@ function CardPage() {
     <div>
       <SectionTitle
         title={"Services"}
-        titleDesc={"At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"}
-        widthDesc={"w-580"}
+        desc={"At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"}
       ></SectionTitle>
 
       <div className="grid grid-cols-2 gap-10">
