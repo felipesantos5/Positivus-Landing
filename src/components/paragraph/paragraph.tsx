@@ -1,12 +1,13 @@
 import React from "react";
 
-interface Paragraph {
+interface paragraphProps {
   width: string;
   children: string;
+  textColor?: string;
 }
 
-const Paragraph = (props: Paragraph) => {
-  const pClassName = `text-black ${props.width} font-normal text-18`;
+const Paragraph = (props: paragraphProps) => {
+  const pClassName = `text-black ${props.width} font-normal text-18 ${props.textColor}`;
 
   return <p className={pClassName}>{props.children}</p>;
 };

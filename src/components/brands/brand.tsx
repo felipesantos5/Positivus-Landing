@@ -1,10 +1,10 @@
 import React from "react";
 
-interface Brands {
+interface brandsProps {
   photo?: string;
 }
 
-const Brand = (props: Brands) => {
+const Brand = (props: brandsProps) => {
   return <img src={props.photo} alt="logo Brand" className="w-" />;
 };
 
