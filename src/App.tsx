@@ -4,6 +4,8 @@ import FirstPage from "./components/introductionpage/fistpage";
 import Header from "./components/header/header";
 import CardPage from "./components/card/cardPage";
 import FirstCta from "./components/firstcta/firstCta";
+import { CasesStudies } from "./components/caseStudies/casestudies";
+import { WorkingProcess } from "./components/workingProcess/workingProcess";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <FirstPage></FirstPage>
         <CardPage></CardPage>
         <FirstCta></FirstCta>
+        <CasesStudies></CasesStudies>
+        <WorkingProcess></WorkingProcess>
       </div>
     </div>
   );
