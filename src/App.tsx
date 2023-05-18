@@ -6,6 +6,7 @@ import CardPage from "./components/card/cardPage";
 import FirstCta from "./components/firstcta/firstCta";
 import { CasesStudies } from "./components/caseStudies/casestudies";
 import { WorkingProcess } from "./components/workingProcess/workingProcess";
+import { TeamPage } from "./components/team/teamPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <FirstCta></FirstCta>
         <CasesStudies></CasesStudies>
         <WorkingProcess></WorkingProcess>
+        <TeamPage></TeamPage>
       </div>
     </div>
   );
