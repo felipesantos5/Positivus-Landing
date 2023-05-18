@@ -4,6 +4,7 @@ import Paragraph from "../paragraph/paragraph";
 interface SectionTitleProps {
   title: string;
   desc: string;
+  widthDesc?: string;
 }
 
 export const SectionTitle = (props: SectionTitleProps) => {

@@ -2,14 +2,6 @@ import React from "react";
 import { SectionTitle } from "../title/title";
 import { CardsWorking } from "./cards";
 
-// interface SectionTitleProps {
-//   title: string;
-//   desc: string;
-//   widthDesc: string;
-// }
-
-// props: SectionTitleProps
-
 export const WorkingProcess = () => {
   return (
     <div>
