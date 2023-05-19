@@ -1,7 +1,7 @@
 import React from "react";
-import Paragraph from "../paragraph/paragraph";
-import arrow from "../../public/img/carousel/arrowTopIcon.png";
-import { Line } from "./line";
+import Paragraph from "../../paragraph/paragraph";
+import arrow from "../../../public/img/carousel/arrowTopIcon.png";
+import { Line } from "../line";
 
 export const Carousel = () => {
   return (
