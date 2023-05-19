@@ -4,7 +4,7 @@ interface ButtonProps {
   children: React.ReactNode;
   bgColor: string;
   width?: string;
-  textColor: string;
+  textColor?: string;
 }
 
 const Button = (props: ButtonProps) => {

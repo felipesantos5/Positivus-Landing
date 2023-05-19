@@ -15,7 +15,7 @@ function Header() {
           <Anchor>Pricing</Anchor>
           <Anchor>Blog</Anchor>
         </nav>
-        <Button bgColor={"bg-white"} textColor="black" width="231">
+        <Button bgColor={"bg-white"} textColor="black" width="w-231">
           Request a quote
         </Button>
       </div>

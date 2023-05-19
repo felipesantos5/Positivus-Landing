@@ -1,7 +1,7 @@
 import React from "react";
 
 interface paragraphProps {
-  width: string | React.ReactNode;
+  width: React.ReactNode;
   children: string;
   textColor?: string;
 }
