@@ -62,6 +62,7 @@ export default {
 
       spacing: {
         23: "-23.5px",
+        100: "10px",
         347: "347px",
       },
       text: {},
