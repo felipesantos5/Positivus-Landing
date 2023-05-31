@@ -7,6 +7,8 @@ import FirstCta from "./components/firstcta/firstCta";
 import { CasesStudies } from "./components/caseStudies/casestudies";
 import { WorkingProcess } from "./components/workingProcess/workingProcess";
 import { TeamPage } from "./components/team/teamPage";
+import { ContactUs } from "./components/contactUs/contactUs";
+import { Footer } from "./components/footer/footer";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <CasesStudies></CasesStudies>
         <WorkingProcess></WorkingProcess>
         <TeamPage></TeamPage>
+        <ContactUs></ContactUs>
+        <Footer></Footer>
       </div>
     </div>
   );
