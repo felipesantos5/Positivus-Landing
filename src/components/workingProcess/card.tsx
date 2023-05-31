@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import Paragraph from "../paragraph/paragraph";
+import Paragraph from "../default/paragraph/paragraph";
 import plusImage from "../../public/img/workingProcess/plus.png";
 import minusImage from "../../public/img/workingProcess/minus.png";
 import line from "../../public/img/workingProcess/Line.svg";
+import "./cardWorkingAnimation.css";
 
 interface cardWorking {
   selected?: boolean;
@@ -51,8 +52,8 @@ export const CardWorking = (props: cardWorking) => {
           </button>
         }
       </div>
-      {/* hidden mt-7 */}
-      <div className={`mt-7 ${hiddenDiv ? "hidden" : ""}`}>
+      {/* ${hiddenDiv ? "hidden" : ""} */}
+      <div className={`mt-7 transition-opacity duration-500 animate-fade-in ${hiddenDiv ? "hidden" : "animate-slide-in"}`}>
         <img className="mb-7" src={line} alt="line" />
         <Paragraph
           width={""}

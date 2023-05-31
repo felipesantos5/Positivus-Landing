@@ -1,5 +1,5 @@
 import React from "react";
-import Paragraph from "../../paragraph/paragraph";
+import Paragraph from "../../default/paragraph/paragraph";
 import arrow from "../../../public/img/carousel/arrowTopIcon.png";
 import { Line } from "../line";
 

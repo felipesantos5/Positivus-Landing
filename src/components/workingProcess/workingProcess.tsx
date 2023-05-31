@@ -1,5 +1,5 @@
 import React from "react";
-import { SectionTitle } from "../title/title";
+import { SectionTitle } from "../default/title/title";
 import { CardsWorking } from "./cards";
 
 export const WorkingProcess = () => {

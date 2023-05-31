@@ -1,5 +1,5 @@
 import React from "react";
-import { SectionTitle } from "../title/title";
+import { SectionTitle } from "../default/title/title";
 import { ServiceCard } from "./card";
 import lupaService from "../../public/img/serviceCardImg/lupa.svg";
 import mediaService from "../../public/img/serviceCardImg/socialMedia.svg";

@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "../button/button";
+import Button from "../default/button/button";
 import ilustration from "../../public/img/firstPage/Illustration.png";
 import Marks from "./brands/brands";
-import Paragraph from "../paragraph/paragraph";
+import Paragraph from "../default/paragraph/paragraph";
 
 const firstPage = () => {
   return (
