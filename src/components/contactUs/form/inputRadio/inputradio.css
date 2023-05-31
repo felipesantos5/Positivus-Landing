@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="radio"].custom-radio:checked {
+  /* Estilos quando o input radio está selecionado */
+  background-color: green;
+}
