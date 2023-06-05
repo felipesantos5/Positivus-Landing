@@ -7,6 +7,7 @@ import FirstCta from "./components/firstcta/firstCta";
 import { CasesStudies } from "./components/caseStudies/casestudies";
 import { WorkingProcess } from "./components/workingProcess/workingProcess";
 import { TeamPage } from "./components/team/teamPage";
+import { TestimonialsCarousel } from "./components/testimonials/carousel/carousel";
 import { ContactUs } from "./components/contactUs/contactUs";
 import { Footer } from "./components/footer/footer";
 
@@ -21,6 +22,7 @@ function App() {
         <CasesStudies></CasesStudies>
         <WorkingProcess></WorkingProcess>
         <TeamPage></TeamPage>
+        <TestimonialsCarousel></TestimonialsCarousel>
         <ContactUs></ContactUs>
         <Footer></Footer>
       </div>
