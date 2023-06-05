@@ -7,7 +7,7 @@ interface inputRadio {
 }
 
 export const InputRadio = (props: inputRadio) => {
-  const [selected, setSelected] = useState(false);
+  const [selected, setSelected] = useState(true);
 
   const handleToggle = () => {
     console.log("teste");
