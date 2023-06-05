@@ -21,11 +21,11 @@ function CardPage() {
         <div className="flex flex-col gap-10">
           <ServiceCard variant={"white"} children1={"Search engine"} children2={"optimization"} imgService={lupaService} widthImage={"w-72"}></ServiceCard>
           <ServiceCard variant={"dark"} children1={"Social Media"} children2={"Marketing"} imgService={mediaService} widthImage={"w-72"}></ServiceCard>
-          <ServiceCard variant={"green"} children1={"Content"} children2={"Creation"} imgService={contentService} widthImage={"w-60"}></ServiceCard>
+          <ServiceCard variant={"green"} children1={"Content"} children2={"Creation"} imgService={contentService} widthImage={"w-64"}></ServiceCard>
         </div>
         <div className="flex flex-col gap-10">
           <ServiceCard variant={"green"} children1={"Pay-per-click"} children2={"advertising"} imgService={payPerClickService} widthImage={"w-72"}></ServiceCard>
-          <ServiceCard variant={"white"} children1={"Email"} children2={"Marketing"} imgService={emailService} widthImage={"w-60"}></ServiceCard>
+          <ServiceCard variant={"white"} children1={"Email"} children2={"Marketing"} imgService={emailService} widthImage={"w-64"}></ServiceCard>
           <ServiceCard variant={"dark"} children1={"Analytics and "} children2={"Tracking"} imgService={analyticsService} widthImage={"w-72"}></ServiceCard>
         </div>
       </div>
